@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de iPhones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Loja de iPhones</h1></header>
+    <main id="produtos"></main>
+    <div id="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="itens-carrinho"></ul>
+        <p>Total: <span id="total">0</span> Kz</p>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+    <div id="checkout" style="display:none;">
+        <h2>Finalizar Pedido</h2>
+        <form onsubmit="enviarPedido(event)">
+            <input type="text" placeholder="Seu nome" required id="nome"><br>
+            <input type="tel" placeholder="Telefone" required id="telefone"><br>
+            <p>Use esta referência bancária: <strong>IBAN: AO06.0006.0000.0010.1063.1016.3</strong></p>
+            <button type="submit">Confirmar Pedido</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

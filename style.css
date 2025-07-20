@@ -1,0 +1,8 @@
+body { font-family: Arial; padding: 10px; background: #f7f7f7; }
+header { background: #333; color: white; padding: 10px; text-align: center; }
+main { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+.produto { background: white; padding: 10px; border-radius: 8px; width: 200px; box-shadow: 1px 1px 5px #ccc; }
+.produto img { width: 100%; border-radius: 5px; }
+#carrinho, #checkout { margin-top: 20px; background: white; padding: 10px; border-radius: 8px; box-shadow: 1px 1px 5px #ccc; }
+button { background: #007bff; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #0056b3; }
